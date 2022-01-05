@@ -1,10 +1,16 @@
-# A WordPress Boilerplate Theme
+# WordPress Boilerplate Theme
 
-That uses TailwindCSS 3.0.
+A Wordpress boilerplate theme that uses TailwindCSS 3 and a JS bundler.
 
-## INSTALL NODEJS
+## INSTALL NODEENV
+
+### Apple Silicon
 
     arch -x86_64 nodeenv --force --prebuilt -n 16.13.1 env
+
+### x86_64
+
+    nodeenv --force --prebuilt -n 16.13.1 env
 
 ## ACTIVATE THE ENVIRONMENT
 
@@ -12,7 +18,11 @@ That uses TailwindCSS 3.0.
 
 ## INSTALL NPM v8
 
-    npm i -g npm@8
+    npm install -g npm@8
+
+## INSTALL THE DEPENDENCIES
+
+    npm install
 
 ## RUN FOR DEVELOPMENT
 
