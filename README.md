@@ -13,3 +13,11 @@ That uses TailwindCSS 3.0.
 ## INSTALL NPM v8
 
     npm i -g npm@8
+
+## RUN FOR DEVELOPMENT
+
+    npm run watch
+
+## BUILD PRODUCTION ASSETS
+
+    npm run build
