@@ -1,0 +1,9 @@
+!.gitignore
+
+# Environment
+node_modules/
+env/
+
+# Built production assets
+css/app.css
+js/app.js
